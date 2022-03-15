@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+  float num1,num2;
+  float div;
+    printf("Enter first number: ");
+    scanf("%f",&num1);
+    printf("Enter second number: ");
+    scanf("%f",&num2);
+    div=num1/num2;
+    printf("Division of the number:%f",div);
+    return 0;
+    
+ }
